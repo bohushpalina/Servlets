@@ -1,0 +1,17 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" build-on-make="true" name="AudioStore">
+    <output-path>$PROJECT_DIR$/out/artifacts/AudioStore</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="AudioStore" />
+        </element>
+        <element id="directory" name="lib" />
+        <element id="file-copy" path="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
+      </element>
+      <element id="directory" name="webapp" />
+      <element id="javaee-facet-resources" facet="AudioStore/web/Web" />
+      <element id="file-copy" path="$PROJECT_DIR$/src/main/webapp/index.jsp" />
+    </root>
+  </artifact>
+</component>
